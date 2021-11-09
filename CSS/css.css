@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://www.teahub.io/photos/full/160-1605392_santiago-bernabeu-real-madrid-cf-stadium-spanish-santiago.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 60%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    overflow: auto;
+}
+
+.navbar a {
+    float: right;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(46, 11, 243);
+}
+
+.active {
+    background-color: #580552;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+}
+
+footer {
+    float: right;
+    color: rgb(240, 240, 240);
+}
+
+div.polaroid {
+    width: 40%;
+    background-color: rgb(252, 250, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
